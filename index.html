@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frost — Cool treats for warm hearts. Handcrafted ice cream, gelato, and frozen desserts made with locally sourced ingredients.">
+  <meta name="keywords" content="ice cream, gelato, frozen desserts, bakery, catering, handcrafted treats">
+  <meta name="author" content="Frost Desserts">
+  <meta property="og:title" content="Frost — Cool Treats for Warm Hearts">
+  <meta property="og:description" content="Handcrafted ice cream, gelato, and frozen desserts made with locally sourced ingredients.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Frost — Cool Treats for Warm Hearts</title>
+
+  <!-- Google Fonts: Lora + Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="templatemo-frost-style.css">
+<!--
+
+TemplateMo 613 Frost Bakery
+
+https://templatemo.com/tm-613-frost-bakery
+
+-->
+</head>
+<body>
+
+  <!-- ==========================================
+       Mobile Hamburger Button
+       ========================================== -->
+  <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+    <div class="hamburger__lines">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </button>
+
+  <!-- Mobile Sidebar Overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- ==========================================
+       Sidebar Navigation
+       ========================================== -->
+  <aside class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
+    <div class="sidebar__brand">
+      <div class="sidebar__logo">Ro<span>a</span>st</div>
+      <div class="sidebar__tagline">PERFECT SIP, EVERY DAY</div>
+    </div>
+
+    <nav class="sidebar__nav">
+      <ul>
+        <li><a href="#hero" class="active"><span class="nav-icon">&#9678;</span> Home</a></li>
+        <li><a href="#flavors"><span class="nav-icon">&#10047;</span> Flavors</a></li>
+        <li><a href="#builder"><span class="nav-icon">&#9733;</span> Build Yours</a></li>
+        <li><a href="#catering"><span class="nav-icon">&#9738;</span> Catering</a></li>
+        <li><a href="#seasonal"><span class="nav-icon">&#10053;</span> Seasonal</a></li>
+        <li><a href="#loyalty"><span class="nav-icon">&#10084;</span> Loyalty</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar__footer">
+      <div class="sidebar__hours">
+        <strong>Jam Operasional</strong><br>
+        Sen – Jum: 07.00 – 20.00<br>
+        Sab – Min: 08.00 – 22.00
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================
+       Main Content
+       ========================================== -->
+  <main class="main">
+
+    <!-- ======= HERO ======= -->
+    <section class="hero" id="hero">
+      <div class="hero__content">
+        <div class="hero__badge reveal">now brewed</div>
+        <h1 class="hero__title reveal reveal-delay-1">
+          Awali harimu dengan<br><em>kopi sempurna.</em>
+        </h1>
+        <p class="hero__subtitle reveal reveal-delay-2">
+          Menghadirkan harmoni antara aroma kopi yang baru dipanggang, kelembutan susu lokal, dan sentuhan rasa autentik yang memanjakan lidah.
+        </p>
+        <div class="hero__actions reveal reveal-delay-3">
+          <a href="#flavors" class="btn btn--primary">Eksplorasi Rasa</a>
+          <a href="#catering" class="btn btn--outline">Pesan Keranjang</a>
+        </div>
+      </div>
+
+      <!-- Decorative ice cream scoops -->
+      <div class="hero__coffee">
+        <img src="images/coffee.png" alt="Coffee Cup">
+      </div>
+    </section>
+
+    <!-- ======= FLAVOR WHEEL — Ticker Marquee ======= -->
+    <section class="section section--alt flavors-section" id="flavors">
+      <div class="section__header reveal">
+        <span class="section__label">Roda Rasa</span>
+        <h2 class="section__title">Temukan seduhan favoritmu</h2>
+        <p class="section__desc">Dari menu klasik hingga eksperimen unik, setiap cangkir berawal dari biji kopi pilihan dan bahan-bahan alami yang asli.</p>
+      </div>
+
+      <!-- Row 1: scrolls left -->
+      <div class="marquee">
+        <div class="marquee__track">
+          <!-- Original set -->
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%,#4e342e, #2b1b17));"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Black Espresso</h3>
+              <p class="flavor-card__desc">Ekstrak murni dengan aroma kuat dan body yang intens.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #634832, #4B3621);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Long Black</h3>
+              <p class="flavor-card__desc">Kesegaran espresso yang dituangkan di atas air panas untuk rasa yang jernih.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #E6D9C1, #CDBA96);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Flat White</h3>
+              <p class="flavor-card__desc">Tekstur susu yang sangat halus menyatu sempurna dengan espresso.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #C9B298, #A68966);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Piccolo Latte</h3>
+              <p class="flavor-card__desc">Ristretto yang kuat dalam balutan sedikit susu panas.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #EAD6BC, #D2B48C);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Classic Cappuccino</h3>
+              <p class="flavor-card__desc">Keseimbangan klasik antara espresso, susu, dan busa tebal di atasnya.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #B89C8F, #967969);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Dirty Chai Latte</h3>
+              <p class="flavor-card__desc">Perpaduan unik rempah chai aromatik dengan satu shot espresso.</p>
+            </div>
+          </div>
+
+          <!-- Duplicate set for seamless loop -->
+           <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #4e342e, #2b1b17);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Black Espresso</h3>
+              <p class="flavor-card__desc">Ekstrak murni dengan aroma kuat dan body yang intens.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #634832, #4B3621);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Long Black</h3>
+              <p class="flavor-card__desc">Kesegaran espresso yang dituangkan di atas air panas untuk rasa yang jernih.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #E6D9C1, #CDBA96);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Flat White</h3>
+              <p class="flavor-card__desc">Tekstur susu yang sangat halus menyatu sempurna dengan espresso.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #C9B298, #A68966);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Piccolo Latte</h3>
+              <p class="flavor-card__desc">Ristretto yang kuat dalam balutan sedikit susu panas.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #EAD6BC, #D2B48C);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Classic Cappuccino</h3>
+              <p class="flavor-card__desc">Keseimbangan klasik antara espresso, susu, dan busa tebal di atasnya.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #B89C8F, #967969);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">The Daily Ritual</span>
+              <h3 class="flavor-card__name">Dirty Chai Latte</h3>
+              <p class="flavor-card__desc">Perpaduan unik rempah chai aromatik dengan satu shot espresso.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: scrolls right (reverse) -->
+        <div class="marquee__track marquee__track--reverse">
+          <!-- Original set -->
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #A67C52, #8B5A2B);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Aren Signature</h3>
+              <p class="flavor-card__desc">Kopi susu andalan dengan rasa manis karamel dari gula aren lokal.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #F4A460, #D99058);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Salted Caramel</h3>
+              <p class="flavor-card__desc">Perpaduan manis karamel dan gurih garam laut yang bikin ketagihan.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #FFF9E3, #F3E5AB);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Vanilla Bean Latte</h3>
+              <p class="flavor-card__desc">Susu lembut dengan infusi biji vanilla asli yang harum dan manis.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #5D4037, #3D2B1F);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Mocha Ganache</h3>
+              <p class="flavor-card__desc">Espresso yang bertemu dengan lelehan cokelat murni yang kaya rasa.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #D4E09B, #B2AC88);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Pistachio Cloud</h3>
+              <p class="flavor-card__desc">Kopi susu unik dengan lapisan krim kacang pistachio yang gurih.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #904E55, #6E404E);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Berry Cold Brew</h3>
+              <p class="flavor-card__desc">Kopi seduh dingin dengan sentuhan kesegaran buah beri yang cerah.</p>
+            </div>
+          </div>
+
+          <!-- Duplicate set for seamless loop -->
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #A67C52, #8B5A2B);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Aren Signature</h3>
+              <p class="flavor-card__desc">Kopi susu andalan dengan rasa manis karamel dari gula aren lokal.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #F4A460, #D99058);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Salted Caramel</h3>
+              <p class="flavor-card__desc">Perpaduan manis karamel dan gurih garam laut yang bikin ketagihan.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #FFF9E3, #F3E5AB);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Vanilla Bean Latte</h3>
+              <p class="flavor-card__desc">Susu lembut dengan infusi biji vanilla asli yang harum dan manis.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #5D4037, #3D2B1F);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Mocha Ganache</h3>
+              <p class="flavor-card__desc">Espresso yang bertemu dengan lelehan cokelat murni yang kaya rasa.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #D4E09B, #B2AC88);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Pistachio Cloud</h3>
+              <p class="flavor-card__desc">Kopi susu unik dengan lapisan krim kacang pistachio yang gurih.</p>
+            </div>
+          </div>
+
+          <div class="flavor-card">
+            <div class="flavor-card__swatch" style="background: radial-gradient(circle at 35% 35%, #904E55, #6E404E);"></div>
+            <div class="flavor-card__info">
+              <span class="flavor-card__type">Signature Creations</span>
+              <h3 class="flavor-card__name">Berry Cold Brew</h3>
+              <p class="flavor-card__desc">Kopi seduh dingin dengan sentuhan kesegaran buah beri yang cerah.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= TOPPING BUILDER ======= -->
+    <section class="section builder" id="builder">
+      <div class="section__header reveal">
+        <span class="section__label">BUILD YOUR BREW</span>
+        <h2 class="section__title">Kopi Anda, Aturan Anda</h2>
+        <p class="section__desc">Ikuti empat langkah mudah untuk meracik kopi favorit Anda di bar kami atau pesan lebih awal untuk pengambilan langsung. Ribuan kombinasi rasa menanti.</p>
+      </div>
+
+      <div class="builder__layout">
+        <div class="builder__steps">
+          <!-- Step 1 -->
+          <div class="builder-step reveal">
+            <div class="builder-step__num">1</div>
+            <div>
+              <h3 class="builder-step__title">CPilih Dasar Kopi Anda</h3>
+              <p class="builder-step__text">Espresso, Cold Brew, atau Manual Brew. Pilih satu metode penyeduhan yang paling sesuai dengan selera energi Anda hari ini.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="builder-step reveal reveal-delay-1">
+            <div class="builder-step__num">2</div>
+            <div>
+              <h3 class="builder-step__title">PTentukan Jenis Susu</h3>
+              <p class="builder-step__text">Susu sapi segar, Oat milk, Almond milk, atau nikmati kopi hitam murni untuk rasa yang lebih kuat dan berkarakter.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="builder-step reveal reveal-delay-2">
+            <div class="builder-step__num">3</div>
+            <div>
+              <h3 class="builder-step__title">Tambahkan Rasa</h3>
+              <p class="builder-step__text">Gula aren, sirup Vanilla, Hazelnut, Caramel, atau sentuhan unik seperti rempah Chai dan ekstrak kelapa.</p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="builder-step reveal reveal-delay-3">
+            <div class="builder-step__num">4</div>
+            <div>
+              <h3 class="builder-step__title">Sentuhan Akhir</h3>
+              <p class="builder-step__text">Sea salt cream, taburan cokelat, bubuk kayu manis, atau karamel serut untuk menyempurnakan setiap sesapan.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Preview -->
+        <div class="builder__preview reveal">
+          <div class="builder__preview-coffee">
+            <img src="images/coffee.png" alt="Coffee">
+          </div>
+          <p class="builder__preview-text">Racik Kopi Anda Sendiri</p>
+          <p class="builder__preview-price">Mulai dari Rp25.000</p>
+          <p class="builder__preview-note">Termasuk Dasar Kopi + Susu/Rasa Utama</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= CATERING CART ======= -->
+    <section class="section section--alt" id="catering">
+      <div class="section__header reveal">
+        <span class="section__label">COFFEE BAR CATERING</span>
+        <h2 class="section__title">Hadirkan Aroma Istimewa ke Acara Anda</h2>
+        <p class="section__desc">Coffee cart bergaya vintage kami hadir lengkap dengan pilihan biji kopi terbaik, barista profesional, dan semua racikan yang diinginkan tamu Anda.
+
+      <div class="catering__grid">
+        <!-- Cart 1: Mini -->
+        <div class="cart-card reveal">
+          <div class="cart-card__visual">
+            <img src="images/ec5ff49dadbc4b754f27c653d989d2dc.jpg" alt="Ice cream cart setup for a small party" loading="lazy">
+            <span class="cart-card__visual-label">Intimate</span>
+          </div>
+          <div class="cart-card__body">
+            <h3 class="cart-card__name">Paket Intimate</h3>
+            <p class="cart-card__desc">Cocok untuk pesta ulang tahun, arisan, atau perayaan kantor skala kecil. Coffee bar ringkas dengan rasa yang berkelas.</p>
+            <div class="cart-card__details">
+              <span class="cart-card__detail">Hingga 30 Tamu</span>
+              <span class="cart-card__detail">3 Menu Signature</span>
+              <span class="cart-card__detail">2 Jam Layanan</span>
+            </div>
+            <div class="cart-card__price">Rp2.500.000 <small>/ acara</small></div>
+          </div>
+        </div>
+
+        <!-- Cart 2: Classic -->
+        <div class="cart-card reveal reveal-delay-1">
+          <div class="cart-card__visual">
+            <img src="images/791bd43f7b9b4d3e36e19d7edbbc0f29.jpg" alt="Vintage ice cream cart at an outdoor event" loading="lazy">
+            <span class="cart-card__visual-label">Most Popular</span>
+          </div>
+          <div class="cart-card__body">
+            <h3 class="cart-card__name">Paket Most Popular</h3>
+            <p class="cart-card__desc">Pengalaman coffee cart ikonik kami. Ideal untuk pesta pernikahan, acara korporat, dan festival akhir pekan.</p>
+            <div class="cart-card__details">
+              <span class="cart-card__detail">Hingga 100 tamu</span>
+              <span class="cart-card__detail">6 Menu Pilihan</span>
+              <span class="cart-card__detail">3 Jam Layanan</span>
+              <span class="cart-card__detail">Toppings Bar</span>
+            </div>
+            <div class="cart-card__price">Rp5.500.000 <small>/ acara</small></div>
+          </div>
+        </div>
+
+        <!-- Cart 3: Deluxe -->
+        <div class="cart-card reveal reveal-delay-2">
+          <div class="cart-card__visual">
+            <img src="images/2174329b8ef1603c1cbc68bd9ef5865a.jpg" alt="Elegant dessert spread at a premium catered event" loading="lazy">
+            <span class="cart-card__visual-label">Premium</span>
+          </div>
+          <div class="cart-card__body">
+            <h3 class="cart-card__name">Paket Premium</h3>
+            <p class="cart-card__desc">Layanan kopi premium selengkap kafe. Termasuk manual brew bar, barista senior, dan pilihan camilan pendamping kopi yang eksklusif.</p>
+            <div class="cart-card__details">
+              <span class="cart-card__detail">Hingga 250 tamu</span>
+              <span class="cart-card__detail">Menu Custom</span>
+              <span class="cart-card__detail">Layanan Seharian</span>
+              <span class="cart-card__detail">Premium Garnish</span>
+            </div>
+            <div class="cart-card__price">Rp12.000.000 <small>/ acara</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= SEASONAL LIMITED EDITIONS ======= -->
+    <!-- ======= SEASONAL LIMITED EDITIONS — Tabs ======= -->
+    <section class="section" id="seasonal">
+      <div class="section__header reveal">
+        <span class="section__label">Limited Editions</span>
+        <h2 class="section__title">Seasonal scoops, fleeting &amp; fresh</h2>
+        <p class="section__desc">Each season brings a small-batch lineup inspired by what's ripe, what's in the air, and a little bit of nostalgia.</p>
+      </div>
+
+      <!-- Season Tabs -->
+      <div class="seasonal-tabs reveal" role="tablist">
+        <button class="seasonal-tab is-active" data-season="spring" role="tab" aria-selected="true" aria-controls="panel-spring">
+          <span class="seasonal-tab__icon" aria-hidden="true">&#127800;</span> Spring
+        </button>
+        <button class="seasonal-tab" data-season="summer" role="tab" aria-selected="false" aria-controls="panel-summer">
+          <span class="seasonal-tab__icon" aria-hidden="true">&#9728;</span> Summer
+        </button>
+        <button class="seasonal-tab" data-season="autumn" role="tab" aria-selected="false" aria-controls="panel-autumn">
+          <span class="seasonal-tab__icon" aria-hidden="true">&#127810;</span> Autumn
+        </button>
+        <button class="seasonal-tab" data-season="winter" role="tab" aria-selected="false" aria-controls="panel-winter">
+          <span class="seasonal-tab__icon" aria-hidden="true">&#10052;</span> Winter
+        </button>
+      </div>
+
+      <!-- Tab Panels -->
+      <div class="seasonal-panels reveal">
+
+        <!-- Spring Panel -->
+        <div class="seasonal-panel is-active" id="panel-spring" role="tabpanel">
+          <div class="seasonal-panel__visual">
+            <img src="images/101adb02c31db70caf51413b3b92fa24.jpg" alt="Cherry blossom almond gelato with petals" loading="lazy">
+            <span class="seasonal-panel__badge">Tersedia Maret – Mei</span>
+          </div>
+          <div class="seasonal-panel__details">
+            <span class="seasonal-panel__season-label">Spring Collection</span>
+            <h3 class="seasonal-panel__name">Rose Honey Macchiato</h3>
+            <p class="seasonal-panel__desc">Espresso ringan dengan infusi madu hutan murni dan aroma bunga mawar yang halus. Sentuhan floral yang elegan di setiap sesapan.</p>
+            <div class="seasonal-panel__meta">
+              <span class="seasonal-panel__meta-tag"><span></span> ☕ Light Roas</span>
+              <span class="seasonal-panel__meta-tag"><span></span> 🌸 Floral</span>
+              <span class="seasonal-panel__meta-tag"><span></span> ✨ Special Edition</span>
+            </div>
+            <a href="#hero" class="btn btn--primary seasonal-panel__cta">Coba Sekarang</a>
+          </div>
+        </div>
+
+        <!-- Summer Panel -->
+        <div class="seasonal-panel" id="panel-summer" role="tabpanel">
+          <div class="seasonal-panel__visual">
+            <img src="images/PineappleCB_Hero_WEB_SQUARE-1-500x500.jpg" alt="Mango chili lime sorbet with tropical fruits" loading="lazy">
+            <span class="seasonal-panel__badge">Tersedia Juni – Agustus</span>
+          </div>
+          <div class="seasonal-panel__details">
+            <span class="seasonal-panel__season-label">Summer Collection</span>
+            <h3 class="seasonal-panel__name">Coconut Pineapple Cold Brew</h3>
+            <p class="seasonal-panel__desc">Kopi seduh dingin selama 12 jam yang dipadukan dengan air kelapa segar dan sedikit ekstrak nanas. Tropis, segar, dan menghidrasi.</p>
+            <div class="seasonal-panel__meta">
+              <span class="seasonal-panel__meta-tag"><span></span> 🧊 Refreshing</span>
+              <span class="seasonal-panel__meta-tag"><span></span> 🥥 Tropical</span>
+              <span class="seasonal-panel__meta-tag"><span></span> ⚡ High Caffeine</span>
+            </div>
+            <a href="#hero" class="btn btn--primary seasonal-panel__cta">Coba Sekarang</a>
+          </div>
+        </div>
+
+        <!-- Autumn Panel -->
+        <div class="seasonal-panel" id="panel-autumn" role="tabpanel">
+          <div class="seasonal-panel__visual">
+            <img src="images/df5c317099ea04dd28ae104fd49e86a7.jpg" alt="Pumpkin chai swirl ice cream with autumn spices" loading="lazy">
+            <span class="seasonal-panel__badge">Tersedia September – November</span>
+          </div>
+          <div class="seasonal-panel__details">
+            <span class="seasonal-panel__season-label">Autumn Collection</span>
+            <h3 class="seasonal-panel__name">Burnt Maple Butter Latte</h3>
+            <p class="seasonal-panel__desc">Perpaduan espresso yang kuat dengan sirup maple murni dan sentuhan brown butter yang gurih. Memberikan rasa karamel yang kaya, hangat, dan sangat nyaman di lidah.</p>
+            <div class="seasonal-panel__meta">
+              <span class="seasonal-panel__meta-tag"><span></span> 🍁 Caramelized</span>
+              <span class="seasonal-panel__meta-tag"><span></span> 🧈 Rich & Buttery</span>
+              <span class="seasonal-panel__meta-tag"><span></span> 🔥 Warm Feelings</span>
+            </div>
+            <a href="#hero" class="btn btn--primary seasonal-panel__cta">Coba Sekarang</a>
+          </div>
+        </div>
+
+        <!-- Winter Panel -->
+        <div class="seasonal-panel" id="panel-winter" role="tabpanel">
+          <div class="seasonal-panel__visual">
+            <img src="images/36ea7b3b2de93a06eaec5f667f96f945.jpg" alt="Peppermint bark brownie ice cream with chocolate pieces" loading="lazy">
+            <span class="seasonal-panel__badge">Tersedia Desember – Februari</span>
+          </div>
+          <div class="seasonal-panel__details">
+            <span class="seasonal-panel__season-label">Winter Collection</span>
+            <h3 class="seasonal-panel__name">Dark Peppermint Mocha</h3>
+            <p class="seasonal-panel__desc">Paduan cokelat hitam pekat (dark cocoa) dan espresso dengan sensasi dingin mint yang menyegarkan sekaligus menghangatkan.</p>
+            <div class="seasonal-panel__meta">
+              <span class="seasonal-panel__meta-tag"><span></span> 🍫 Rich</span>
+              <span class="seasonal-panel__meta-tag"><span></span> 🍃 Mintyl</span>
+              <span class="seasonal-panel__meta-tag"><span></span> ❄️ Holiday Special</span>
+            </div>
+            <a href="#hero" class="btn btn--primary seasonal-panel__cta">Coba Sekarang</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= LOYALTY STAMP CARD ======= -->
+    <section class="section section--alt loyalty" id="loyalty">
+      <div class="section__header reveal">
+        <span class="section__label">BREW REWARDS</span>
+        <h2 class="section__title">Setiap Sesapan Membawa Anda Lebih Dekat</h2>
+        <p class="section__desc">Ambil kartu stempel Anda pada kunjungan berikutnya. Sepuluh stempel berarti satu cangkir kopi gratis — plus berbagai keuntungan menarik selama perjalanan Anda.</p>
+      </div>
+
+      <div class="loyalty__layout">
+        <div class="loyalty__info reveal">
+          <div class="loyalty__perks">
+            <div class="perk">
+              <div class="perk__icon">&#10003;</div>
+              <p class="perk__text"><strong>Stempel ke-5:</strong> Gratis upgrade ukuran atau tambahan sirup pada minuman apa pun — silakan coba tambahan sea salt cream kami.</p>
+            </div>
+            <div class="perk">
+              <div class="perk__icon">&#10003;</div>
+              <p class="perk__text"><strong>Stempel ke-10::</strong> Satu cangkir kopi gratis pilihan Anda, termasuk menu musiman dan edisi terbatas.</p>
+            </div>
+            <div class="perk">
+              <div class="perk__icon">&#10003;</div>
+              <p class="perk__text"><strong>Tunjukkan kartu identitas Anda di bulan ulang tahun dan dapatkan gratis camilan pendamping kopi selama seminggu penuh.</p>
+            </div>
+            <div class="perk">
+              <div class="perk__icon">&#10003;</div>
+              <p class="perk__text"><strong>Referral Reward:</strong> Bawa teman untuk memulai kartu mereka, dan Anda berdua akan mendapatkan bonus satu stempel tambahan.</p>
+            </div>
+          </div>
+
+          <a href="#hero" class="btn btn--sage" style="margin-top: 2rem;">Mulai Mengumpulkan</a>
+        </div>
+
+        <!-- Stamp Card Visual -->
+        <div class="stamp-card reveal reveal-delay-1">
+          <div class="stamp-card__header">
+            <span class="stamp-card__title">Kartu Stempel Anda</span>
+            <span class="stamp-card__count">7 / 10</span>
+          </div>
+          <div class="stamp-card__grid">
+            <div class="stamp stamp--filled">☕</div>
+            <div class="stamp stamp--filled">☕</div>
+            <div class="stamp stamp--filled">☕</div>
+            <div class="stamp stamp--filled">☕</div>
+            <div class="stamp stamp--reward stamp--filled">&#9733;</div>
+            <div class="stamp stamp--filled">☕</div>
+            <div class="stamp stamp--filled">☕</div>
+            <div class="stamp">☕</div>
+            <div class="stamp">☕</div>
+            <div class="stamp stamp--reward">FREE</div>
+          </div>
+          <p class="stamp-card__footer">3 cangkir lagi untuk mendapatkan kopi gratis Anda!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div>
+          <div class="footer__brand">Ro<span>a</span>st</div>
+          <p class="footer__copy">Kopi artisan yang diracik segar setiap pagi dengan susu lokal pilihan, dan sentuhan rasa yang istimewa.</p>
+        </div>
+
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Menu</h4>
+            <ul>
+              <li><a href="#flavors">Flavors</a></li>
+              <li><a href="#builder">Build Your Own</a></li>
+              <li><a href="#seasonal">Seasonal Scoops</a></li>
+              <li><a href="#catering">Catering</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Sourcing</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="https://x.com/minthu" target="_blank">X Handle</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#"><span class="__cf_email__" data-cfemail="8fe7eae3e3e0cfe9fde0fcfba1ece0">[email&#160;protected]</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Roast Coffee. All rights reserved. Designed by <a href="https://templatemo.com" target="_blank" rel="noopener noreferrer">TemplateMo</a></p>
+      </div>
+    </footer>
+
+  </main>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="templatemo-frost-script.js"></script>
+</body>
+</html>
